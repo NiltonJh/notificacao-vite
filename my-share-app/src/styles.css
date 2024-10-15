@@ -1,0 +1,33 @@
+.post {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.share-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.share-buttons button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .share-buttons {
+    flex-direction: column;
+  }
+}
